@@ -2,7 +2,7 @@ all: clean exec
 exec: rf
 
 rf: source.cpp
-	g++ source.cpp -o rf
+	g++ rf.cpp -o rf
 
 clean:
 	
